@@ -5,7 +5,7 @@ html,body{
 }
 
 body{
-	background-image: url("img/bg.jpg");
+	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
 	background-color: #000000;
 	margin: 0;
@@ -105,6 +105,9 @@ header{
 
 .content > h1, .content > h2, .content > h3{
 	text-align: center;
-	margin:0;
+	margin: 0;
 
+}
+.content a {
+	color: white;
 }
