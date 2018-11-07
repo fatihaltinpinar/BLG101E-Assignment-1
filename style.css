@@ -1,6 +1,37 @@
-body {
+/*body {
 	/*background-image: url(bgimage.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	*/
+	
+}*/
+table,tr,td,th{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th, td{
+	padding:0.1%;
+	text-align: center;
+	align-content: center;
+	vertical-align: middle;
+}
+
+table{
+
+	width: 100%;
+}
+td{
+	height: auto;
+}
+
+.albumCover{
+	max-width: 350px; 
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
