@@ -12,6 +12,7 @@ body{
 }
 
 div.container{
+	position: relative;
 	min-height: 100%;
 	width: 70%;
 	min-width: 500px;
@@ -20,6 +21,8 @@ div.container{
 	margin-right: auto;
 	margin-left: auto;
 	top:0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 
 }
 
@@ -162,3 +165,30 @@ img.pageEndLogo{
 	margin-top: 20px;
 }
 
+div.footer{
+	position: absolute;
+	bottom: 0px;
+	background-color: #7c7c7c;
+	right: 0;
+	left: 0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	text-align: center;
+	color:white;
+}
+
+div.footer a{
+	color: #001f51;
+}
+
+ul.sourceList > li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul.sourceList a{
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 16px;
+
+}
