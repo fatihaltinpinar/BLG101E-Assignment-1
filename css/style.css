@@ -6,6 +6,7 @@ html{
 body{
 	height: 100%;
 	background-image: url("../img/bg.jpg");
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: #000000;
 	margin: 0;
@@ -14,12 +15,15 @@ body{
 .container{
 	min-height: 99%;
 	width: 70%;
+	min-width: 500px;
 	background-color: #424242;
 	margin-right: auto;
 	margin-left: auto;
 	top:0;
 
 }
+
+/* Styling Navbar*/
 
 header{
 	width: 100%;
@@ -60,6 +64,22 @@ header{
 	height: 100%;
 }
 
+
+/*Navbar Aniamtions.*/
+
+.navLinks a:before{
+	content: '';
+	width: 0px;
+	height: 2px;
+	display: block;
+	background: white;
+	transition: 300ms;
+	align-self: center;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
 .navLinks a:after{
 	content: '';
 	width: 0px;
@@ -84,7 +104,10 @@ header{
 	border-radius: 10px;
 }
 .navBar a:hover:after{
-	width:100%;
+	width:90%;
+}
+.navBar a:hover:before{
+	width:90%;
 }
 
 
@@ -95,6 +118,10 @@ header{
 .navImg img {
 	height: 100%;
 }
+
+
+
+/* Styling Content*/
 
 .content{
 	color:white;
