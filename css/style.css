@@ -6,7 +6,6 @@ html{
 body{
 	height: 100%;
 	background-image: url("../img/bg.jpg");
-	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: #000000;
 	margin: 0;
@@ -16,6 +15,7 @@ body{
 	min-height: 99%;
 	width: 70%;
 	min-width: 500px;
+	max-width: 1000px;
 	background-color: #424242;
 	margin-right: auto;
 	margin-left: auto;
@@ -26,6 +26,7 @@ body{
 /* Styling Navbar*/
 
 header{
+	font-family:"Times New Roman", Times, serif;
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -40,7 +41,8 @@ header{
 
 .navBar * {
 	display: inline-block;
-	font-size: 1.5em;
+	font-size: 150%;
+
 }
 
 .navBar{
@@ -117,6 +119,7 @@ header{
 
 .navImg img {
 	height: 100%;
+	width: auto;
 }
 
 
@@ -127,14 +130,22 @@ header{
 	color:white;
 	height: 100%;
 	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 20px;
 }
 
 
 .content > h1, .content > h2, .content > h3{
 	text-align: center;
 	margin: 0;
+	font-weight: bold;
+
 
 }
 .content a {
 	color: white;
+}
+
+p{
+	text-indent: 1em;
 }
